@@ -23,6 +23,7 @@ class NoteCard extends StatelessWidget {
           notes.text!,
           maxLines: 2,
           overflow: TextOverflow.ellipsis,
+          style: const TextStyle(color: Colors.white),
         ),
         trailing: IconButton(
           onPressed: () {
